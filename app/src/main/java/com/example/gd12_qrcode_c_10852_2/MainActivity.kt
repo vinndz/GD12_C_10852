@@ -300,6 +300,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
 
+
             STORAGE_REQUEST_CODE -> {
                 if (grantResults.isNotEmpty()){
                     val storageAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED
