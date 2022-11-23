@@ -133,6 +133,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         encryptionType = "WEP"
                     }
 
+
                     Log.d(TAG,"extractbarcodeQrCodeInfo: TYPE_WIFI")
                     Log.d(TAG,"extractbarcodeQrCodeInfo: ssid: $ssid")
                     Log.d(TAG,"extractbarcodeQrCodeInfo: password: $password")
