@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
 
         val timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss a")
         table.addCell(Cell().add(Paragraph("Pukul Pembuatan")))
-        table.addCell(Cell().add(Paragraph(LocalDate.now().format(dateTimeFormatter))))
+        table.addCell(Cell().add(Paragraph(LocalTime.now().format(timeFormatter))))
 
 
         // pembuatan QR CODE secara generate dengan bantuan IText7
